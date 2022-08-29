@@ -2,9 +2,10 @@
 pragma solidity ^0.8.0;
 
 import "forge-std/Test.sol";
-import "../src/SchnoodleV9.sol";
-import "../src/interfaces/IUniswapV2Pair.sol";
-import "../src/interfaces/IWETH9.sol";
+
+import "src/SchnoodleV9.sol";
+import "src/interfaces/IUniswapV2Pair.sol";
+import "src/interfaces/IWETH9.sol";
 
 contract SchnoodleHack is Test {
     SchnoodleV9 snood = SchnoodleV9(0xD45740aB9ec920bEdBD9BAb2E863519E59731941);
