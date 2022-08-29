@@ -3,5 +3,12 @@ test/SchnoodleHackSolution.t.sol
 lib/
 cache/
 out/
+broadcast/
 
 trace.md
+
+.DS_Store
+
+.env
+.env.prod
+
